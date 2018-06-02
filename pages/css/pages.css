@@ -31,7 +31,7 @@ html {
 
 .intro-header {
     color: hsla(271, 64%, 64%, 1);
-    background-color: #262626;
+    background-color: black;
     text-align: center;
     font-size: 37pt;
     padding: 50px;
@@ -49,7 +49,7 @@ a:visited {
 }
 .titel {
     color: hsla(271, 64%, 64%, 1);
-    background-color: #262626;
+    background-color: black;
     text-align: center;
     padding: 80px;
     font-size: 36pt;
@@ -105,7 +105,7 @@ a:visited {
 
 .titlescenarios {
     color: hsla(271, 64%, 64%, 1);
-    background-color: #262626;
+    background-color: black;
     text-align: center;
     font-size: 70pt;
     padding: 160px;
