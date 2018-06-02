@@ -25,7 +25,7 @@ html {
 
 .intro {
     margin: auto;
-    max-width: 900px;
+    max-width: 1250px;
     padding: 60px;
 }
 
@@ -35,7 +35,7 @@ html {
     text-align: center;
     font-size: 37pt;
     padding: 50px;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 .infostudent {
