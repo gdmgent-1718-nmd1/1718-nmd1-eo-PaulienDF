@@ -30,7 +30,7 @@ html {
 }
 
 .intro-header {
-    color: hsla(271, 64%, 64%, 1);
+    color: #fcfcfc;
     background-color: #262626;
     text-align: center;
     font-size: 37pt;
