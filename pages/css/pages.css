@@ -30,7 +30,7 @@ html {
 }
 
 .intro-header {
-    color: #fcfcfc;
+    color: hsla(271, 64%, 64%, 1);
     background-color: #262626;
     text-align: center;
     font-size: 37pt;
@@ -97,4 +97,21 @@ a:visited {
 .justify-positive-negative {
     display: flex;
     justify-content: space-around;
+}
+
+/* Code Scenarios */
+
+.titlescenarios {
+    color: hsla(271, 64%, 64%, 1);
+    background-color: #262626;
+    text-align: center;
+    font-size: 70pt;
+    padding: 160px;
+    margin: 0 0 50px;
+}
+
+.container-scenarios {
+    margin: auto;
+    max-width: 500px;
+    max-height: 401px;
 }
