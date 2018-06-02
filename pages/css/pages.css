@@ -16,3 +16,68 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Code voor concurrentie.html */
+a:visited {
+    color: rgb(0, 147, 233);
+}
+.titel {
+    color: hsla(271, 64%, 64%, 1);
+    background-color: #262626;
+    text-align: center;
+    padding: 80px;
+    font-size: 36pt;
+    line-height: 100px;
+    
+}
+.concurrentie-breedte {
+    max-width: 1250px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.concurrentie {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.positive {
+    color: white;
+    background-color: #20ca67;
+    margin: 0 10px 0 10px;
+    max-width: 500px;
+    min-height: 250px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.negative {
+    color: white;
+    background-color: #e74c3c;
+    margin: 0 10px 0 10px;
+    max-width: 500px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+/* plaats de rode en groene vlak naast elkaar */
+
+.justify-positive-negative {
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    border-bottom: 1px solid;
+    color: hsla(271, 64%, 64%, 1);
+}

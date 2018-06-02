@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Concurrentie analyse - Eindopdracht NMD-I</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-    <link rel="stylesheet" href="css/pages.css">
-</head>
-<body>
-    <h1>Concurrentie analyse</h1>
-    <a href="https://hamiltonmusical.com/new-york">Hamilton the musical</a> <br>
-    <a href="https://wickedthemusical.com/">Wicked the musical</a> <br>
-    <a href="http://www.danandphiltour.com/">Interactive Introverts</a> <br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Concurrentie analyse - Eindopdracht NMD-I</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/pages.css">
+    </head>
+    <body>
+        <div class="titel">
+            <h1>Concurrentie analyse</h1>
+        </div>
 
-        <h2>Hamilton the musical</h2>
-        <div class="positive">   
-        <h3>Positive notes</h3>
-            <ul>
-                <li> Verschillende steden waar ze een voorstelling hebben</li>
-                <li> Directions naar de theaterzaal</li>
-                <li> Kalender en verkrijgbare versies van tickets</li>
-                <li> Cast</li>
-                <li> Nieuwskanaal</li>
-                <li> Goedkopere tickets verkrijgbaar via loterij</li>
-                <li> Social media</li>
-            </ul>
-        </div>
-        <div class="negative">
-            <h3>Negative notes</h3>
-            <ul>
-                <li> Foto's die amper laden</li>
-                <li> website beschikbaar in maar 1 taal (granted, Engels is een wereldtaal)</li>
-            </ul>
-        </div>
-        
-        
-        <h2>Wicked the musical</h2>
-        <div class="positive">
-            <h3>Positive notes</h3>
-            <ul>
-                <li> Behind the scenes tour</li>
-                <li> Learn more</li>
-                <li> Verschillende taalmogelijkheden</li>
-                <li> Extra shows toevoeging deftig in beeld</li>
-            </ul>
-        </div>
-        <div class="negative">
-            <h3>Negative notes</h3>
-            <ul>
-                <li>verouderde opmaak</li>
-                <li>navigatie die soms niet werkt</li>
-            </ul>
-        </div>
-        
-        
-        <h2>Interactive Introverts</h2>
-        <div class="positive">
-            <h3>Positive notes</h3>
-            <ul>
-                <li> One-pager</li>
-                <li> responsive naar alle formaten</li>
-                <li> up-to-date</li>
-                <li> extra uitleg onderaan</li>
-                <li> social media connect</li>
-                <li> informatie voor reselling</li>
-            </ul>
-        </div>
-        <div class="negative">   
-        <h3>Negative notes</h3>
-            <ul>
-                <li> lege link die naar niets leidt</li>
-            </ul>
-        </div>        
-</body>
+        <div class="concurrentie-breedte">
+            <section class="concurrentie">
+                <a href="https://hamiltonmusical.com/new-york">Hamilton the musical</a> <br>
+                <a href="https://wickedthemusical.com/">Wicked the musical</a> <br>
+                <a href="http://www.danandphiltour.com/">Interactive Introverts</a>
+            </section>
+            <div class="justify-positive-negative">
+                <section class="Hamilton">
+                    <h2>Hamilton the musical</h2>
+                    <div class="positive">   
+                        <h3>Positive notes</h3>
+                            <ul>
+                                <li> Verschillende steden waar ze een voorstelling hebben</li>
+                                <li> Directions naar de theaterzaal</li>
+                                <li> Kalender en verkrijgbare versies van tickets</li>
+                                <li> Cast</li>
+                                <li> Nieuwskanaal</li>
+                                <li> Goedkopere tickets verkrijgbaar via loterij</li>
+                                <li> Social media</li>
+                            </ul>
+                    </div>
+                    <div class="negative">
+                        <h3>Negative notes</h3>
+                        <ul>
+                            <li> Foto's die amper laden</li>
+                            <li> website beschikbaar in maar 1 taal (granted, Engels is een wereldtaal)</li>
+                        </ul>
+                    </div>
+                </section>
+            
+                <selection class="Wicked">
+                    <h2>Wicked the musical</h2>
+                    <div class="positive">
+                        <h3>Positive notes</h3>
+                        <ul>
+                            <li> Behind the scenes tour</li>
+                            <li> Learn more</li>
+                            <li> Verschillende taalmogelijkheden</li>
+                            <li> Extra shows toevoeging deftig in beeld</li>
+                        </ul>
+                    </div>
+                    <div class="negative">
+                        <h3>Negative notes</h3>
+                        <ul>
+                            <li>verouderde opmaak</li>
+                            <li>navigatie die soms niet werkt</li>
+                        </ul>
+                    </div>
+                </selection>
+            
+                <selection class="dnp">
+                    <h2>Interactive Introverts</h2>
+                    <div class="positive">
+                        <h3>Positive notes</h3>
+                        <ul>
+                            <li> One-pager</li>
+                            <li> responsive naar alle formaten</li>
+                            <li> up-to-date</li>
+                            <li> extra uitleg onderaan</li>
+                            <li> social media connect</li>
+                            <li> informatie voor reselling</li>
+                        </ul>
+                    </div>
+                    <div class="negative">   
+                    <h3>Negative notes</h3>
+                        <ul>
+                            <li> lege link die naar niets leidt</li>
+                        </ul>
+                    </div> 
+                </selection>
+        </div>       
+    </body>
 </html>
