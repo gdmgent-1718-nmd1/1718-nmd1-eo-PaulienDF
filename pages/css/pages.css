@@ -75,7 +75,7 @@ a:visited {
 
 .positive {
     color: white;
-    background-color: #20ca67;
+    background-color: green;
     margin: 0 10px 0 10px;
     max-width: 500px;
     min-height: 250px;
@@ -85,7 +85,7 @@ a:visited {
 
 .negative {
     color: white;
-    background-color: #e74c3c;
+    background-color: red;
     margin: 0 10px 0 10px;
     max-width: 500px;
     min-height: 100px;
