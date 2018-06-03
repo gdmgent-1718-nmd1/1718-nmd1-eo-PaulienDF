@@ -21,7 +21,7 @@ html {
     width: 100%;
 }
 
-/* Code voor intro.html */
+/* Code for intro.html */
 
 .intro {
     margin: auto;
@@ -43,7 +43,7 @@ html {
     padding: 0 0 20px;
 }
 
-/* Code voor concurrentie.html */
+/* Code for concurrentie.html */
 a:visited {
     color: rgb(0, 147, 233);
 }
@@ -70,7 +70,7 @@ a:visited {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .positive {
@@ -117,4 +117,7 @@ a:visited {
     margin-left: 50px;
     max-width: 620px;
     max-height: 401px;
+}
+h1{
+    font-family: 'Source Code Pro', monospace;
 }
