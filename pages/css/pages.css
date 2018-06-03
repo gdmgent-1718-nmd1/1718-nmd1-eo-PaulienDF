@@ -45,7 +45,7 @@ html {
 
 /* Code for concurrentie.html */
 a:visited {
-    color: rgb(0, 147, 233);
+    color:purple;
 }
 .titel {
     color: hsla(271, 64%, 64%, 1);
