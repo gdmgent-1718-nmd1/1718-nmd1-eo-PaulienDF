@@ -71,6 +71,7 @@ a:visited {
     margin-top: 20px;
     margin-bottom: 40px;
     max-width: 450px;
+    
 }
 
 .positive {
@@ -94,7 +95,7 @@ a:visited {
     
 }
 
-/* plaats de rode en groene vlak naast elkaar */
+/* plaats de rode en groene kaders onder elkaar */
 
 .justify-positive-negative {
     display: flex;
